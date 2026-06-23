@@ -5,40 +5,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Global Private Detective Agency</title>
     <style>
-        body { font-family: 'Segoe UI', sans-serif; text-align: center; background: #0a192f; color: #ffffff; padding: 50px; }
-        .container { max-width: 600px; margin: auto; }
-        h1 { color: #c5a059; letter-spacing: 2px; }
-        .btn { display: inline-block; padding: 15px 30px; background: #c5a059; color: #0a192f; text-decoration: none; font-weight: bold; border-radius: 5px; margin-top: 20px; }
-        footer { margin-top: 50px; font-size: 0.8em; color: #888; }
+        body { font-family: 'Segoe UI', Arial, sans-serif; background-color: #0a192f; color: #ffffff; padding: 20px; text-align: center; }
+        .container { max-width: 800px; margin: auto; }
+        h1 { color: #c5a059; }
+        
+        /* Gallery Style */
+        .gallery-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 15px; margin-top: 20px; }
+        .gallery-item { width: 100%; height: 200px; object-fit: cover; border: 2px solid #c5a059; border-radius: 5px; }
+        
+        .btn { display: inline-block; padding: 15px 30px; background: #c5a059; color: #0a192f; text-decoration: none; font-weight: bold; border-radius: 5px; margin: 20px 0; }
+        footer { margin-top: 40px; font-size: 0.8em; color: #888; }
     </style>
 </head>
 <body>
-    <div class="container">
-        <h1>GLOBAL PRIVATE DETECTIVE AGENCY</h1>
-        <p><strong>Discretion • Integrity • Precision</strong></p>
-        <br>
-        <h2>Professional Investigative Services</h2>
-        <p>Advanced digital forensics, surveillance, and risk management.</p>
-        <br>
-        <a href="mailto:info@yourdomain.com" class="btn">REQUEST CONSULTATION</a>
-        <footer>
-            <p>&copy; 2026 Global Private Detective Agency. All Rights Reserved.</p>
-        <!-- Gallery Section -->
-<section id="gallery">
+
+<div class="container">
+    <h1>GLOBAL PRIVATE DETECTIVE AGENCY</h1>
+    <p><em>Discretion • Integrity • Precision</em></p>
+    
+    <h2>Professional Investigative Services</h2>
+    <p>Advanced digital forensics, surveillance, and risk management.</p>
+
+    <a href="mailto:info@yourdomain.com" class="btn">REQUEST CONSULTATION</a>
+
+    <!-- Agency Gallery Section -->
     <h3>Agency Gallery</h3>
     <div class="gallery-grid">
-        <img src="images/photo1.jpg" alt="Investigation" width="150">
-        <img src="images/photo2.jpg" alt="Digital Forensics" width="150">
-        <img src="images/photo3.jpg" alt="Surveillance" width="150">
+        <img src="images/photo1.jpg" alt="Investigation" class="gallery-item">
+        <img src="images/photo2.jpg" alt="Digital Forensics" class="gallery-item">
+        <img src="images/photo3.jpg" alt="Surveillance" class="gallery-item">
     </div>
-</section>
 
-<style>
-    .gallery-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 15px; margin-top: 20px; }
-    .gallery-grid img { width: 100%; height: 150px; object-fit: cover; border-radius: 5px; border: 2px solid #c5a059; }
-</style>
+    <footer>
+        &copy; 2026 Global Private Detective Agency. All Rights Reserved.
+    </footer>
+</div>
 
-    </div>
 </body>
 </html>
+
 
