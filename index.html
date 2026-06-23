@@ -23,7 +23,21 @@
         <a href="mailto:info@yourdomain.com" class="btn">REQUEST CONSULTATION</a>
         <footer>
             <p>&copy; 2026 Global Private Detective Agency. All Rights Reserved.</p>
-        </footer>
+        <!-- Gallery Section -->
+<section id="gallery">
+    <h3>Agency Gallery</h3>
+    <div class="gallery-grid">
+        <img src="images/photo1.jpg" alt="Investigation" width="150">
+        <img src="images/photo2.jpg" alt="Digital Forensics" width="150">
+        <img src="images/photo3.jpg" alt="Surveillance" width="150">
+    </div>
+</section>
+
+<style>
+    .gallery-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 15px; margin-top: 20px; }
+    .gallery-grid img { width: 100%; height: 150px; object-fit: cover; border-radius: 5px; border: 2px solid #c5a059; }
+</style>
+
     </div>
 </body>
 </html>
